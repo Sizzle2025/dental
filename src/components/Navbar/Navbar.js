@@ -35,7 +35,8 @@ const Navbar = () => {
                     <div className="container-fluid">
                         {/* Logo */}
                         <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="logo" />
+                            // <img src={logo} alt="logo" />
+                        <h1>PRS DENTAL</h1>
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
