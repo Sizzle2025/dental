@@ -2,9 +2,9 @@ import React from 'react';
 import './TeethWhitening.scss';
 import Footer from '../Footer/Footer';
 import Navbar from '../../components/Navbar/Navbar';
-import whiteningBanner from '../../assets/teeth-banner.avif';
-import procedureImage from '../../assets/dental-cleaning.avif';
-import aftercareImage from '../../assets/brushing-teeth.webp';
+import whiteningBanner from '../../assets/thooth-whitening.jpg';
+import procedureImage from '../../assets/dental-cleaning.jpg';
+import aftercareImage from '../../assets/brushing-thooth.jpg';
 
 const TeethWhitening = () => {
   return (
@@ -13,7 +13,7 @@ const TeethWhitening = () => {
       <div className="teeth-whitening-page">
 
         {/* Section 1: Introduction */}
-        <section className="intro" style={{ backgroundImage: url(${whiteningBanner}) }}>
+        <section className="intro" style={{ backgroundImage: url('${whiteningBanner}') }}>
           <div className="overlay">
             <div className="container">
               <h1>Professional Tooth Whitening</h1>
