@@ -43,8 +43,7 @@ const Symptoms = () => {
                 <SectionTitle 
                     subTitle="Symptoms"
                     title="Sign and symptoms you need root canal"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-                />
+                    description="Persistent tooth pain and sensitivity to hot or cold may indicate an infected pulp needing a root canal. Swelling, darkening of the tooth, or a pimple on the gums are also common signs."                />
 
                 <div className="row">
                     {

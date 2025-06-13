@@ -15,7 +15,7 @@ const Gallery = () => {
                 <SectionTitle 
                     subTitle="Gallery"
                     title="Some proof about our services for you"
-                    description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                    description="Our expert root canal treatments have restored thousands of smiles with minimal pain and quick recovery. Trusted by patients, we use advanced technology and strict hygiene for safe, lasting results."
                 />
                 <div className="row">
                     <div className="col-md-5 col-sm-6">
