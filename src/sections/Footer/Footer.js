@@ -35,17 +35,19 @@ const Footer = () => {
     const footerContacts = [
         {
             'title': 'Phone Number',
-            'info': '+088 123 654 987',
+            'info': '+917200718607',
             'icon': call
         },
         {
             'title': 'Open Hour',
-            'info': '09:00 AM - 18:00 PM',
+            'info': '10 AM to 1 PM & 5 PM to 9 PM',
             'icon': time
         },
         {
             'title': 'Clinic Address',
-            'info': '35 West Dental Street California 1004',
+            'info': 'No 59/14, Jambulingam main road ,',
+            'info1':'Annai Anjugam Nagar, G.K.M Colony ,',
+            'info2':'Chennai - 600082',
             'icon': location
         }
     ]
@@ -58,7 +60,7 @@ const Footer = () => {
                         <div className="footer-logo">
                             <img src={logo} alt="logo" />
                         </div>
-                        <p>Dental Care Seattle is a top-rated local practice for cosmetic, preventative, and restorative dentistry on First Hill</p>
+                        <p>PRS Dental Care is a trusted dental clinic on First Hill, offering expert cosmetic, preventive, and restorative dentistry. Visit us or call to schedule your appointment today.</p>
 
                         <div className="social-logo">
                             <p>Follow us on</p>
@@ -91,7 +93,9 @@ const Footer = () => {
                                                 </div>
                                                 <div className="contact-text">
                                                     <p>{footerContact.title}</p>
-                                                    <h5>{footerContact.info}</h5>
+                                                    <h5 className='mb-2'>{footerContact.info}</h5>
+                                                    <h5 className='mb-2'>{footerContact.info1}</h5>
+                                                    <h5 className='mb-2'>{footerContact.info2}</h5>
                                                 </div>
                                             </div>
                                 })
@@ -102,7 +106,7 @@ const Footer = () => {
 
                 <div className="copyright-area">
                     <div className='copy-text'>
-                        <p>&copy; Dentalist. All Right Reserved</p>
+                        <p>&copy; PRS Dental. All Right Reserved</p>
                     </div>  
                     <div className='copy-links'>
                         <ul>
