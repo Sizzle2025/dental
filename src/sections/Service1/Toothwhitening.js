@@ -2,9 +2,9 @@ import React from 'react';
 import './TeethWhitening.scss';
 import Footer from '../Footer/Footer';
 import Navbar from '../../components/Navbar/Navbar';
-import whiteningBanner from '../../assets/thooth-whitening.jpg';
-import procedureImage from '../../assets/dental-cleaning.jpg';
-import aftercareImage from '../../assets/brushing-thooth.jpg';
+import WhiteningBanner from '../../assets/thooth-whitening.jpg';
+import ProcedureImage from '../../assets/dental-cleaning.jpg';
+import AftercareImage from '../../assets/brushing-thooth.jpg';
 
 const TeethWhitening = () => {
   return (
@@ -13,7 +13,7 @@ const TeethWhitening = () => {
       <div className="teeth-whitening-page">
 
         {/* Section 1: Introduction */}
-        <section className="intro" style={{ backgroundImage: url('${whiteningBanner}') }}>
+        <section className="intro" style={{ backgroundImage: `url(${WhiteningBanner})` }}>
           <div className="overlay">
             <div className="container">
               <h1>Professional Tooth Whitening</h1>
@@ -43,7 +43,7 @@ const TeethWhitening = () => {
           <div className="container">
             <h2>Our Step-by-Step Whitening Process</h2>
             <div className="procedure-content">
-              <img src={procedureImage} alt="Whitening procedure" />
+              <img src={ProcedureImage} alt="Whitening procedure" />
               <ol>
                 <li><strong>Consultation:</strong> We evaluate your oral health and desired shade.</li>
                 <li><strong>Cleaning:</strong> Plaque and surface stains are removed.</li>
@@ -60,7 +60,7 @@ const TeethWhitening = () => {
           <div className="container">
             <h2>Post-Treatment Care</h2>
             <div className="aftercare-content">
-              <img src={aftercareImage} alt="Aftercare" />
+              <img src={AftercareImage} alt="Aftercare" />
               <ul>
                 <li>🚫 Avoid coffee, wine, and dark sauces for 48 hours</li>
                 <li>🪥 Brush and floss regularly with a whitening-friendly toothpaste</li>
